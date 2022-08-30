@@ -22,6 +22,7 @@ class _HeaderState extends State<Header> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Column(
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               BigText(text: 'Sudan', color: AppColors.mainColor,),
               Row(
